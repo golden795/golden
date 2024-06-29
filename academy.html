@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="academy.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 fw-bold text-primary" href="#">Our Light<br><span class="academy text-success">Academy</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-5">
+              <li class="nav-item">
+                <a class="nav-link active"href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-success ms-5" href="#">Enroll Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+     
+      <style>
+        .circle {
+            position: relative;
+            left: 200px;
+          width: 700px;
+          height: 400px;
+          background-color: blue;
+          border-radius: 50%;
+        }
+        .image-container {
+          display: flex;
+          align-items: center;
+        }
+       
+        .image-container img{
+            z-index: 100;
+            padding: 10px;
+            position: relative;
+            right: 190px;
+            height: 400px;
+            top: 30px;
+        }
+
+        .text1{
+            background-color: #fff;
+            width: 180px;
+            height: 80px;
+            border-radius: 5%;
+            position: relative;
+            left: 1100px;
+            z-index: 100;
+            top: 50px;
+        }
+
+        .text2{
+            background-color: #fff;
+            width: 180px;
+            height: 100px;
+            border-radius: 5%;
+            position: relative;
+            left: 700px;
+            bottom: 200px;
+            z-index: 100; 
+        }
+
+        .absolute{
+            position: absolute;
+        }
+
+        .text3{
+            background-color: #fff;
+            width: 180px;
+            height: 130px;
+            border-radius: 5%;
+            position: relative;
+            left: 520px;
+            z-index: 100;
+            overflow: hidden;
+            top: 120px;
+        }
+      </style>
+    <header class="bg-primary-subtle" style="height: 622px;">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 d-flex align-items-center">
+          <div>
+            <div class="text1">
+            <p class="text-center p-4">"Best Courses I've Seen in a While"</p>
+        </div>
+
+            <h6 class="text-primary fs-5">INNOVATE AND THRIVE</h6>
+            <h1 class="text-primary fs-1">Explore endless<br> possibilities with<br> our Courses</h1>
+            <p class="text-dark fs-5">We empower individuals like you with the knowledge, skills,<br>
+         and confidence needed to thrive in the dynamic world of<br> information technology (IT).</p>
+                <a href="" class="btn btn-success p-3"><i class="bi bi-bookmark"></i> See Courses List</a>
+                <div class="text2">
+                    <p><i class="bi bi-check"></i> Largest online<br>course collection</p> 
+                    <p><i class="bi bi-check"></i> Expert instructors</p> 
+                 </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          
+          <div class="image-container">
+            <div class="circle"></div>
+            <img src="real-lady.png" alt="" class="img-fluid">
+            <div class="absolute">
+            <div class="text3 text-center fs-5">
+                <i class="bi bi-book"></i>
+                <p>10,000+</p>
+                <p>Enrolled Students</p>
+            </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+    <section>
+
+        <div class="container pt-5">
+            <h6 class="text-center pt-5">WE ARE THE BEST</h6>
+            <h2 class="text-center pt-3">WHY CHOOSE US?</h2>
+            <div class="general">
+            <div class="row pt-5 ">
+                <div class="col-4 bg-white">
+                    <div class="last">
+                    <i class="bi bi-person"></i>
+                </div>
+                    <h3 class="text-center fs-2">Experienced Instructors</h3>
+                    <p class="fs-5 text-center">Our team will guide you through the<br> maze of learning.</p>
+                </div>
+                <div class="col-4 bg-white">
+                    <div class="last">
+                        <i class="bi bi-tv"></i>
+                </div>
+                    <h3 class="text-center fs-2">Practical Experience</h3>
+                    <p class="fs-5 text-center">Get the skills needed to thrive in the<br> tech world.</p>
+                </div>
+                <div class="col-4 bg-white">
+                    <div class="last">
+                        <i class="bi bi-heart"></i>
+                </div>
+                    <h3 class="text-center fs-2">Career Support Services</h3>
+                    <p class="fs-5 text-center">We offer a launchpad to professional success for the journey ahead..</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-6 pt-4">
+            <img src="worker.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-3">
+            <h6 class="text-primary fs-5 mt-4">WHO WE ARE</h6>
+            <h2 class="text-primary mt-5">About Us</h2>
+            <p class="fs-5 mt-5">We believe in the transformative power of technology. We are<br> more than just an ICT training company, we are catalysts for<br> innovation, empowerment, and growth in the digital age.<br></p> 
+
+             <p class="fs-5 mt-4">We dedicate to bridging the gap between aspiration and<br> achievement in the world of ICT. With years of collective<br> experience in the industry, our team brings unparalleled expertise,<br> creativity, and dedication to every training program we offer.</p>
+             <a href="" class="btn btn-success">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+     
+      <div class="container text-center mt-5">
+        <n2 class="fs-1 fw-bold">OUR COURSES</n2>
+      </div>
+
+
+<div class="container mt-5">
+  <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card" style="width: 22rem;">
+              <img src="Untitled-design-35.jpg" class="card-img-top img-fluid mb-3" alt="">
+              <div class="card-body text-center">
+                  <h5 class="card-title fs-2 ">Data Analytics</h5>
+                  <p class="card-text">Take up data analysis as a profession.<br> Learn the skills required for data analysis<br> and data visualization. From zero to job-<br>ready in two months.</p>
+                  <a href="#" class="btn btn-success">Read More</a>
+              </div>
+          </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4 col-sm-6">
+          <div class="card" style="width: 22rem;">
+              <img src="Untitled-design-362.jpg" class="card-img-top img-fluid mb-3" alt="">
+              <div class="card-body text-center">
+                  <h5 class="card-title fs-2 ">Web Development</h5>
+                  <p class="card-text">Learn the various of tasks such as; web<br> design, front-end & back-end<br> development, for building & maintaining<br> websites and web applications.</p>
+                  <a href="#" class="btn btn-success">Read More</a>
+              </div>
+          </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4 col-sm-6">
+          <div class="card" style="width: 22rem;">
+              <img src="Untitled-design-372.jpg" class="card-img-top img-fluid" alt="">
+              <div class="card-body text-center">
+                  <h5 class="card-title fs-2 mb-3">Digital Marketing</h5>
+                  <p class="card-text">You will be encompassed with a wide<br> range of online marketing tactics and<br> strategies aimed at reaching and<br> influencing the target audiences.</p>
+                  <a href="#" class="btn btn-success">Read More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+      <!-- Card 4 -->
+      <div class="col-md-4 mb-5 col-sm-6">
+          <div class="card" style="width: 22rem;">
+              <img src="Untitled-design-382.jpg" class="card-img-top img-fluid" alt="">
+              <div class="card-body text-center">
+                  <h5 class="card-title fs-2 mb-3">UI/UX</h5>
+                  <p class="card-text">Learn the different aspects and critical<br> components for creating digital products,<br> including websites, mobile apps, and<br> software applications.</p>
+                  <a href="#" class="btn btn-success">Read More</a>
+              </div>
+          </div>
+      </div>
+      <!-- card 5 -->
+      <div class="col-md-4 mb-5 col-sm-6">
+          <div class="card" style="width: 22rem;">
+              <img src="Untitled-design-392.jpg" class="card-img-top img-fluid" alt="">
+              <div class="card-body text-center">
+                  <h5 class="card-title fs-2 mb-3">Web Design</h5>
+                  <p class="card-text">We will teach you how to create any type<br> of professional, high-quality website with<br> advanced features using the simplest and<br> most efficient tools available.</p>
+                  <a href="#" class="btn btn-success">Read More</a>
+              </div>
+          </div>
+      </div>
+      <!-- card 6 -->
+      <div class="col-md-4 mb-5 col-sm-6">
+          <div class="card" style="width: 22rem;">
+              <img src="Untitled-design-403.jpg" class="card-img-top img-fluid" alt="">
+              <div class="card-body text-center">
+                  <h5 class="card-title fs-2 mb-3">Graphics Design</h5>
+                  <p class="card-text">Learn to create visual concepts and<br> compositions to convey messages, ideas,<br> or information in a visually compelling<br> and effective manner.</p>
+                  <a href="#" class="btn btn-success">Read More</a>
+              </div>
+          </div>
+      </div>
+
+    </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-6">
+            <h6 class="mt-5">UNLOCK YOUR POTENTIAL</h6>
+            <h2 class="fs-1 fw-bold mt-5">Explore Cutting-Edge<br> Courses in Tech</h2>
+            <p class="lead mt-4">We aim to capture the attention of prospective learners and highlight the value proposition of their training.</p>
+            <div class="explore">
+              <a href="#" class="btn btn-success mt-2 p-4">Explore Our Online Courses</a>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <img src="online-worker.jpg" class="img-fluid" alt="">
+            <div class="text">
+              <i class="bi bi-shield-shaded"></i>
+              <h5>100% Safe & Secured</h5>
+              <p>Get Paired With a Proffesional<br> tutor who can teach you.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="section">
+      <div class="container enroll">
+        <div class="row">
+          <div class="col-4" style="width: 18rem;">
+            <p class=""><i class="bi bi-book user-reading-icon"></i></p>
+            <h2>500+</h2>
+            <p>Enrolled Students</p>
+          </div>
+
+          <div class="col-4" style="width: 18rem;">
+            <p><i class="bi bi-book "></i></p>
+            <h2>10+</h2>
+            <p>Online Courses</p>
+          </div>
+
+          <div class="col-4" style="width: 18rem;">
+            <p> <i class="bi bi-grid-fill modules-icon"></i></p>
+            <h2>200+</h2>
+            <p>Modules</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <h6 class="text-center mt-5">TESTIMONIALS</h6>
+      <h1 class="text-center mt-4 fs-1 fw-bold">What our students have to say</h1>
+      
+      <div class="container mt-5">
+        <div class="row">
+        <div class="col-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <p class="fst-italic fs-4 mt-2">I received great customer<br> service from the specialists<br> who helped me. I would<br> recommend to anyone who<br> wants quality.</p>
+          <p class="image fst-italic mt-5"><img src="testi-1.jpg" alt=""><span class="p">Sophia Kayode</span></p>
+          <p class="student1 fst-italic fs-5">student</p>
+        </div>
+        <div class="col-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <p class="fst-italic fs-4 mt-2">Very responsive and<br> competent! I’ve never dealt<br> with an insurance company<br> this customer-friendly in my entire life.</p>
+          <p class="image-2 fst-italic fs-5"><img src="testi-2.jpg" alt=""><span class="p2">Adeola Taiwo</span></p>
+          <p class="student2 fst-italic">student</p>
+        </div>
+        <div class="col-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <p class="fst-italic fs-4 mt-2">My experience with this<br> platform so far has been great. Everything is easy, from signing the contract to making an appointment..</p>
+          <p class="image3 fst-italic fs-5"><img src="testi3.jpg" alt=""><span class="p3">Tobechukwu Stanley</span></p>
+          <p class="student3 fst-italic">student</p>
+        </div>
+        <div class="col-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <p class="fst-italic fs-4 mt-2">It’s the best online insurance you can find. Easy, without hidden costs and you can be very sure. your data is completely save.</p>
+          <p class="image4 fst-italic fs-5"><img src="testi4.jpg" alt=""><span class="p4">Oluremi Olufemi</span></p>
+          <p class="student4 fst-italic">student</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class=" container2 mt-5">
+      <div class="container">
+        <div class="row mt-4">
+          
+          <div class="col-6">
+            <h6 class="fs-4 mt-5">GET CERTIFIED</h6>
+            <h1 class="fs-1 fw-bold mt-5">Be The Best With Our Certification</h1>
+            <p class="fs-4 mt-5"><i class="bi bi-check"></i> Worldwide Acknowledgment</p>
+            <p class="fs-4 mt-3"><i class="bi bi-check"></i> Our certifications offer you a benefit</p>
+            <p class="fs-4 mt-3"><i class="bi bi-check"></i> Post your accomplishment on LinkedIn, etc.</p>
+            <a href="" class="btn btn-success fs-4 mt-5"><i class="fa-regular fa-hand-point-right"></i> Apply Now</a>
+          </div>
+        
+
+          <div class="col-6">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+            <div class="circle5"></div>
+            <div class="circle6"></div>
+
+            <div class="imagess">
+              <img src="lady2.png" class="img-fluid" alt="">
+              <img src="man22.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-flex mt-5">
+        <div class="footer-item">
+          <h3 class="text-dark mt-5 fs-1 fw-bold">Our Light<br><span class="aca text-success fs-5 fw-bold">Academy</span></h3>
+          <h5>Follow Us</h5>
+          <div class="icon1">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+
+        <div class="footer-item2">
+          <h3 class="text-dark mb-4">Courses</h3>
+          <p class="semi-bold fs-4">Data Analytics</p>
+          <p class="semi-bold fs-4">Web Development</p>
+          <p class="semi-bold fs-4">Digital Marketing</p>
+          <p class="semi-bold fs-4">UI/UX</p>
+          <p class="semi-bold fs-4">Web Design</p>
+          <p class="semi-bold fs-4">Graphics Design</p>
+        </div>
+        <div class="footer-item3">
+          <h3 class="text-dark mb-4">Resources</h3>
+          <p class="semi-bold fs-4">Catalog</p>
+          <p class="semi-bold fs-4">Career Resource Center</p>
+          <p class="semi-bold fs-4">Hiring Partners</p>
+          <p class="semi-bold fs-4">Student Success</p>
+          <p class="semi-bold fs-4">Scholarships</p>
+        </div>
+
+        <div class="footer-item2">
+          <h3 class="text-dark mb-4">Legal</h3>
+          <p class="semi-bold fs-4">Terms of use</p>
+          <p class="semi-bold fs-4">Privacy policy</p>
+          <p class="semi-bold fs-4">Legal notice</p>
+        </div>
+
+        <div class="footer-item2">
+          <h3 class="text-dark mb-4">Contact</h3>
+          <p class="semi-bold fs-4">MBM Plaza, No 48 Old Aba</p>
+          <p class="semi-bold fs-4">Road, Rumuobiakani, Port-</p>
+          <p class="semi-bold fs-4">Harcourt, Nigeria.</p>
+          <p class="semi-bold fs-4">contact@ourlightacademy.com</p>
+          <p class="semi-bold fs-4">+(234) 915-572-7242</p>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="bg-light">
+      <p class="ms-5 fs-4 fw-1 p-2 mt-5">©copyright Our Light Academy 2024 Designed by Strategic Hub</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
